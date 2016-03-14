@@ -1,7 +1,7 @@
-# hexo-theme-zeta
+## hexo-theme-zeta
 a theme for hexo inspired by [minimal](https://github.com/orderedlist/minimal) & [pelican-sundown](https://github.com/keningle/pelican-sundown)
 
-#todolist
+## todolist
 
 - [x] make a sidebar
 - [x] make article list
@@ -14,3 +14,7 @@ a theme for hexo inspired by [minimal](https://github.com/orderedlist/minimal) &
 - [x] for page
 - [ ] make gh-page
 - [ ] fix the url
+- [ ] fix tag
+
+## demo (not work well)
+[https://zhy0216.github.io/hexo-theme-zeta/](https://zhy0216.github.io/hexo-theme-zeta/) 
