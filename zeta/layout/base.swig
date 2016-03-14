@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>{% block title %}{{config.title}}{% endblock %}</title>
 
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/entry.css">
+    <link rel="stylesheet" href="{{config.url}}/css/main.css">
+    <link rel="stylesheet" href="{{config.url}}/css/entry.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="icon" 
       type="image/png" 
-      href="image/logo.png">
+      href="{{config.url}}/image/logo.png">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -18,7 +18,7 @@
   <body>
     <div class="wrapper">
       <header>
-      <div><img src="image/logo.png" class="grv-img" 
+      <div><img src="{{config.url}}/image/logo.png" class="grv-img" 
                   style=" width: 150px;margin-left: -35px;"/></div>
         <div class="title"><a href="/">{{ config.title }} </a></div>
         <!-- 
