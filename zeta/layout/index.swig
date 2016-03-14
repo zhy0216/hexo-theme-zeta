@@ -13,4 +13,6 @@
     {% endfor %}
   </div>
 
+  {% include 'pagination.swig' %}
+
 {% endblock %}

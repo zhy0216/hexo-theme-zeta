@@ -4,7 +4,9 @@ a theme for hexo inspired by [minimal](https://github.com/orderedlist/minimal) &
 #todolist
 
 - [ ] make a sidebar
-- [ ] make article list
-- [ ] should be simple
+- [x] make article list
+- [x] swig
 - [ ] make a simple logo
+- [ ] work on tag???
+- [x] pagination
 

@@ -31,11 +31,9 @@
 
       {% endblock %}
       </section>
- <!--      
       <footer>
-        <p><small>&copy; {{ config.title }} &mdash; Theme based on Sundown by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small>&copy; {{ config.title }} &mdash; Theme by <a href="https://github.com/zhy0216/hexo-theme-zeta">Yang</a></small></p>
       </footer> 
-      -->
     </div>
     <!-- Scale fix -->
   </body>
