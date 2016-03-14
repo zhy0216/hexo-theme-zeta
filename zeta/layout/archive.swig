@@ -16,7 +16,7 @@
     <dt>{{ year }}</dt>
       {% endif %}
       {# endshow #}
-    <dd><a href="{{ url_for(post.path) }}">{{ post.title }}</a></dd>
+    <dd><a href="{{ post.permalink }}">{{ post.title }}</a></dd>
 {% endfor %}
 </dl>
 </section>
