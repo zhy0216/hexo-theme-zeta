@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Hexo</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/entry.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="icon" 
+      type="image/png" 
+      href="/image/logo.png">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+      <div><img src="/image/logo.png" class="grv-img" 
+                  style=" width: 150px;margin-left: -35px;"/></div>
+        <div class="title"><a href="/">Hexo </a></div>
+        <!-- 
+        <div class="sub-title">subtitle</div>
+         -->
+
+        <div class="view"><a href="/index.html">主页</a></div>
+<div class="view"><a href="/archives/">归档</a></div>
+<div class="view"><a href="/about">关于</a></div>
+<div class="view"><a href="/atom.xml">订阅</a></div>
+
+      </header>
+      <section class="entry">
+      
+<section id="content" class="body">
+<h1>Archives for Hexo</h1>
+
+<dl>
+
+
+
+
+      
+      
+
+      
+        
+    <dt>2013</dt>
+      
+      
+    <dd><a href="/2013/12/24/long-title/">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo turpis, tincidunt ac convallis id.</a></dd>
+
+
+      
+      
+
+      
+      
+    <dd><a href="/2013/12/24/categories/">Categories</a></dd>
+
+
+      
+      
+
+      
+      
+    <dd><a href="/2013/12/24/link-post/">Link Post</a></dd>
+
+
+      
+      
+
+      
+      
+    <dd><a href="/2013/12/24/elements/">Elements</a></dd>
+
+
+      
+      
+
+      
+      
+    <dd><a href="/2013/12/24/hello-world/">Hello World</a></dd>
+
+</dl>
+</section>
+
+      </section>
+      <footer>
+        <p><small>Power by <a href="https://github.com/hexojs/hexo">Hexo</a> & Theme by <a href="https://github.com/zhy0216/hexo-theme-zeta">Yang</a></small></p>
+      </footer> 
+    </div>
+    <!-- Scale fix -->
+  </body>
+  <script>
+      var metas = document.getElementsByTagName('meta');
+      var i;
+      
+      if (navigator.userAgent.match(/iPhone/i)) {
+        for (i=0; i<metas.length; i++) {
+          if (metas[i].name == "viewport") {
+            metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+          }
+        }
+      
+        document.addEventListener("gesturestart", gestureStart, false);
+      }
+
+      function gestureStart() {
+        for (i=0; i<metas.length; i++) {
+          if (metas[i].name == "viewport") {
+            metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
+          }
+        }
+      }
+
+  
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    var duoshuoQuery = {short_name:'random-walk'};
+      (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+      })();
+    <!-- 多说公共JS代码 end -->
+  
+    </script>
+</html>
