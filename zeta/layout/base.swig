@@ -32,7 +32,7 @@
       {% endblock %}
       </section>
       <footer>
-        <p><small>&copy; {{ config.title }} &mdash; Theme by <a href="https://github.com/zhy0216/hexo-theme-zeta">Yang</a></small></p>
+        <p><small>Power by <a href="https://github.com/hexojs/hexo">Hexo</a> & Theme by <a href="https://github.com/zhy0216/hexo-theme-zeta">Yang</a></small></p>
       </footer> 
     </div>
     <!-- Scale fix -->

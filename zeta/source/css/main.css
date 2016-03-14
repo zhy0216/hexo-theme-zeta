@@ -187,6 +187,7 @@ header .title {
   font-size: 28px;
   padding-top: 2px;
   padding-bottom: 8px;
+  margin-left: -2px;
 }
 
 div[class='social'] a {
@@ -339,7 +340,7 @@ footer {
   position: absolute;
     margin-left: -2em;
     left: 50%;
-    bottom: 25px;
+    bottom: 0px;
 }
 
 .paginator a{

@@ -3,10 +3,12 @@ a theme for hexo inspired by [minimal](https://github.com/orderedlist/minimal) &
 
 #todolist
 
-- [ ] make a sidebar
+- [x] make a sidebar
 - [x] make article list
 - [x] swig
+- [x] archive
 - [ ] make a simple logo
 - [ ] work on tag???
 - [x] pagination
+- [ ] add duoshuo
 
