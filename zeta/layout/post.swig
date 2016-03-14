@@ -3,6 +3,7 @@
 {% block content %}
 <section id="content" class="body entry">    
     <h1 class="entry-title">{{ page.title }}</h1>
-    {{ page.excerpt }}
+    {{ page.content }}
 </section>
+    {%include "comment.swig"%}
 {% endblock %}

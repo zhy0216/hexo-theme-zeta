@@ -8,7 +8,7 @@ a theme for hexo inspired by [minimal](https://github.com/orderedlist/minimal) &
 - [x] swig
 - [x] archive
 - [ ] make a simple logo
-- [ ] work on tag???
+- [x] work on tag
 - [x] pagination
-- [ ] add duoshuo
-
+- [X] add duoshuo
+- [x] for page
