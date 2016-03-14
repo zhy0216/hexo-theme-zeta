@@ -3,6 +3,6 @@
 {% block content %}
 <section id="content" class="body entry">    
     <h1 class="entry-title">{{ page.title }}</h1>
-    {{ page.content }}
+    {{ page.excerpt }}
 </section>
 {% endblock %}

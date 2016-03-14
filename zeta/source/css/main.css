@@ -264,6 +264,9 @@ footer {
     margin-top: 10px;
     margin-left: 15px;
   }
+  .entry .front-title:first-child{
+    margin-top: 15px !important;
+  }
 
   header div.view {
   display: inline-block;
