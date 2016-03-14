@@ -1,3 +1,8 @@
+#music-iframe{
+  position: relative;
+  left: 50%;
+  margin-left: -165px;
+}
 
 header .social{
   margin-top: .5em;
@@ -5,23 +10,8 @@ header .social{
 header .social h4{
   margin-bottom: 0;
 }
-
-.entry em{
-  -webkit-text-emphasis: none !important;
-  -moz-text-emphasis: none !important;
-  -ms-text-emphasis: none !important;
-  font-weight: bold !important;
-}
-
-.source-link{
-  float:right;
-}
-
-.source-link a{
-  background-image: url('../images/icons/github.png');
-  background-repeat: no-repeat;
-  background-position: 3px 1px;
-  padding-left: 25px;
+p {
+    color: #333;
 }
 
 @font-face {
@@ -200,10 +190,10 @@ header .title {
 }
 
 div[class='social'] a {
-        background-repeat: no-repeat;
-        background-position: 3px 6px;
-        padding-left: 25px;
-    }
+    background-repeat: no-repeat;
+    background-position: 3px 6px;
+    padding-left: 25px;
+  }
 
 section {
   width:630px;
@@ -321,7 +311,7 @@ footer {
   color: #39c;
   font-weight: 400;
   text-decoration: none;
-  font-size: 26px;
+  // font-size: 26px;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
