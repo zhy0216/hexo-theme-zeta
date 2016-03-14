@@ -20,7 +20,7 @@
       <header>
       <div><img src="{{config.url}}/image/logo.png" class="grv-img" 
                   style=" width: 150px;margin-left: -35px;"/></div>
-        <div class="title"><a href="/">{{ config.title }} </a></div>
+        <div class="title"><a href="{{config.url}}">{{ config.title }} </a></div>
         <!-- 
         <div class="sub-title">subtitle</div>
          -->

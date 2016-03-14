@@ -12,9 +12,9 @@ a theme for hexo inspired by [minimal](https://github.com/orderedlist/minimal) &
 - [x] pagination
 - [X] add duoshuo
 - [x] for page
-- [ ] make gh-page
-- [ ] fix the url
-- [ ] fix tag
+- [x] make gh-page
+- [x] fix the url
+- [x] fix tag
 
-## demo (not work well)
+## demo
 [https://zhy0216.github.io/hexo-theme-zeta/](https://zhy0216.github.io/hexo-theme-zeta/) 
