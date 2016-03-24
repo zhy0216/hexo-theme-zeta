@@ -47,6 +47,7 @@ body {
   // color:#777;
   color: #333;
   font-weight:300;
+   -webkit-font-smoothing: antialiased;
 }
 
 .grv-img {
